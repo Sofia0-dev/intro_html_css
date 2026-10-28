@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+        body {
+            font-family: 'Noto Sans Linear B', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            /* background:rgb(112, 96, 4); */
+            border-bottom: 1px solid rgb(112, 96, 4);
+        }
+
+        .nav-items {
+            width: 80%;
+            /* background:  beige; */
+            display : flex;
+            justify-content: space-between;
+            align-items: center;
+            /* border-bottom: 1px solid rgb(112, 96, 4); */
+        }
+
+         .nav-items ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            width: 50%;
+         }
+            
+
+         .nav-items  li {
+            margin-right: 20px;
+            margin-left: 20px;
+            
+         }
+
+         .nav-items a {
+            text-decoration: none;
+            color: pink;
+            font-weight: bold; 
+         }
+       
+         .nav-items a:hover {
+            color: rgb(5, 91, 132);
+            transition: 0.3s;
+            text-decoration: underline;
+         }
+         
+         /* git add . */
+         /* git commit -m "Built the nav bar" */
+         /* git push */
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- semantic tags -->
+
+    <nav>
+        <div class="nav-items">
+            <img src="images/1152217885885540540.jpg" alt="tiktok logo" width="70px" height="80px">
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Team</a></li>
+                <li> <a href="#">Services</a></li>
+                <li> <a href="#">Pricing</a></li>
+                <li> <a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- <h2> lorem ipsum </h2> -->
+
+
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
