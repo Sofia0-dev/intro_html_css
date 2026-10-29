@@ -21,6 +21,8 @@ p {
     text-align: center;
 }
 
+/* media queries */
+/* medium devoces - tablets */
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -46,3 +48,5 @@ p {
         color: aqua;
     }
 }
+
+/* xs, sm, md, lg, xl, xxl */
