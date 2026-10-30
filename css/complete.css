@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gothic&display=swap');
+
+:root {
+    --brand-green: #159957;
+    --brand-dark: #1c2d41;
+    --soft-bg: #f4f8f7;
+}
+
+body {
+    color: var(--brand-dark);
+    font-family: "Noto Sans Gothic", sans-serif;
+}
+
+.brand {
+    color: var(--brand-green);
+    font-size: 1.46rem;
+}
+
+#dark-title {
+    color: var(--brand-dark);
+}
+
+.brand:hover {
+    color: #064322;
+}
+
+.nav-link {
+    color: rgb(16, 155, 108);
+}
+
+
+.nav-link-hover,
+.nav-link.active {
+    color: var(--brand-green) !important;
+
+}
+
+.btn-success {
+    background: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+    border-radius: 0;
+    transition: all 2s;
+}
+
+.btn-success:hover {
+    background-color: #024e28 !important;
+    border-color: #064322 !important;
+}
+
+.hero {
+    padding: 3.5rem;
+    background: linear-gradient(120deg, #11e8b2, #03523f);
+
+}
+
+.top-title {
+    color: var(--brand-green);
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+.hero h1 {
+    line-height: 1.2;
+}
+
+.section-heading h2 {
+    margin-bottom: 04rem;
+}
+
+.card {
+    border-color: #e5e9ec;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 6px 14px 112px 28px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: 6px 14px 112px 28px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: 6px 14px 112px 28px rgba(0, 0, 0, 0.68);
+}
+
+.about-section {
+    background-color: var(--soft-bg);
+}
+
+.about-section i {
+    color: var(--brand-green);
+    font-size: 2.5rem;
+}
+
+/* to do --- center it */
+.about-section p {
+    max-width: 540px;
+    margin: auto;
+}
+
+.footer {
+    background-color: #057939;
+    color: whitesmoke;
+}
+
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: var(--brand-dark);
+    text-decoration: underline;
+}
+
+.copyright {
+    background: #1c2d41;
+}
